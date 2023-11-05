@@ -1,0 +1,527 @@
+
+/*nabar*/
+.navbar {
+    padding: 1rem;
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#main {
+    background: #ffffff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #86b7fe, #ffffff, #f8f9fa);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #86b7fe, #ffffff, #f8f9fa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*fuente navbar*/
+.navbar-text{
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+.navbar-text:hover {
+    color: #86b7fe;
+}
+.navbar img {
+    height: 2.5rem;
+    width: auto;
+}
+.navbar a {
+    font-size: 1rem;
+    color: #ffffff;
+}
+.navbar span:hover {
+    padding: 13px 20px;
+    background: #f8f9fa;
+    color: #021B79;
+    border-radius: 15px;
+}
+.navbar button {
+    padding: 5px 10px;
+    background: #f8f9fa;
+    color: #021B79;
+    border-radius: 15px;
+}
+
+/*Inicio-imagen
+.inicio {
+width: 100%;
+height: 100vh;
+background-image: url(../img/portada.jpg);
+background-size: cover;
+position: relative;
+box-shadow: 0.25rem 0.25rem 0.25rem 0;
+}*/
+
+/*inicio*/
+.inicio-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*inicio-titulo*/
+.container-fluid h1 {
+    background: #ccc;
+    background: radial-gradient(#ffffff, #6c757d);
+    font-family: system-ui;
+    font-size: 3rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*inicio-sub-titulo*/
+.container-fluid h2 {
+    background: #ccc;
+    background: radial-gradient(#ffffff, #ffffff);
+    font-family: system-ui;
+    font-size: 2rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    margin: 2.5rem;
+}
+
+/*inicio-boton*/
+.angled-gradient-button {
+    background-size: 220%;
+    box-shadow: 0 .2em .3em rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    background-color: transparent;
+    background-position: 100%;
+    border: 3px solid #3363ff;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all .2s ease-out;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background-image: linear-gradient(110deg, #3363ff 0%, #3363ff 50%, transparent 50%, transparent 100%);
+    font-size: 17px;
+    margin: 30px 0 0 0;
+    font-family: sans-serif;
+}
+.angled-gradient-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 .3em rgba(0, 0, 0, 0.25);
+    background-position: 0;
+    color: #ffffff;
+}
+.angled-gradient-button:active {
+    transform: translateY(-1px);
+}
+
+/*fin inicio¨*/
+
+.espacio {
+    box-shadow: 0 .2em .3em rgba(0, 0, 0, 0.15);
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/*nosotros*/
+
+/*titulo-nosotros*/
+.nosotros h2{
+    background: #ccc;
+    background: radial-gradient(#0a58ca, #6c757d);
+    font-family: system-ui;
+    font-size: 4rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*img-nosotros*/
+.titulo-img {
+    height: 25rem;
+    width: auto;
+}
+
+/*subtitulo-nosotros*/
+.quellon h3 {
+    background: #ccc;
+    background: radial-gradient(#0a58ca, #6c757d);
+    font-family: system-ui;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+    text-align: center;
+    /*despues ver bien, porque si no se adjusta bien se borra el espacio de color azul*/
+}
+
+/*nosotros-contenido*/
+
+/*nosotros-subtitulo*/
+.saludos h4 {
+    font-size: 30px;
+    background: #ccc;
+    background: radial-gradient(#0a58ca, #021B79);
+    font-family: system-ui;;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    margin-top: 22rem;
+    margin-left: 4.25rem;
+}
+
+/*nosotros-texto*/
+.saludos p {
+    font-size: 24px;
+    line-height: 2rem;
+    color: #021B79;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+/*nosotros-img*/
+.saludos img {
+    height: 25rem;
+    width: auto;
+    margin-top: 21rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0;
+    margin-bottom: 7rem;
+}
+
+/*padres y apoderados*/
+
+/*padres y apoderados-titulo*/
+.padres-apoderados h3 {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    margin-right: 61%;
+}
+
+/*padres y apoderados-texto-1*/
+.contenido-padres-apoderados-1 p {
+    margin-top: 1rem;
+}
+
+/*padres y apoderados-img1*/
+.contenido-padres-apoderados-1 img {
+    height: 18rem;
+    width: 25rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0;
+}
+
+/*padreas y apoderados-texto-2*/
+.contenido-padres-apoderados-2 {
+    margin-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.contenido-padres-apoderados-2 p {
+    margin-top: 1rem;
+}
+
+/*padres y apoderados-img-2*/
+.contenido-padres-apoderados-2 img {
+    height: 18rem;
+    width: 25rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0;
+}
+
+
+/*fundacion*/
+
+/*fundacion-titulo*/
+.fundacion-titulo {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+/*fundancion-titulo-color*/
+.fundacion-contenido {
+    padding-bottom: 6rem;
+}
+
+
+
+/*contratar*/
+
+/*contratar-titulo*/
+.transportistas h2 {
+    margin-top: 4rem;
+    background: #ccc;
+    background: radial-gradient(#0d6efd, #021B79);
+    font-family: system-ui;
+    font-size: 4rem;
+    padding: 5rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*contratar-img*/
+.contenedor {
+    padding-bottom: 4rem;
+    padding-left: 5rem;
+}
+.tio img {
+    padding-left: 2rem;
+}
+.contenindo img {
+    width: 300px;
+    height: 300px;
+    margin-top: 4rem;
+    border-radius: 0.5rem;
+}
+.capa-nombre {
+    padding: 0.5rem;
+}
+.capa {
+    position: absolute;
+}
+.capa {
+    width: 16.8rem;
+    height: 3.8rem;
+    position: absolute;
+    left: 2.8rem;
+    bottom: 0;
+    border-radius: 0.5rem;
+
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/*acomodar contratar-texto*/
+.postcontenedor {
+    margin-top: 1rem;
+    position: relative;
+}
+.postcontenedor .postnombre {
+    position: relative;
+    left: 8.3rem;
+    bottom: 0.5rem;
+    text-decoration: none;
+}
+.postnombre {
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+.postnombre:hover {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+
+
+
+/*nose que poner*/
+.fiscalícenos-texto-1 {
+    margin-top: 5rem;
+    padding-left: 3.5rem;
+}
+.fiscalícenos-texto-1 p {
+    margin-bottom: 8rem;
+}
+
+.fiscalícenos-texto-2 {
+    margin-top: 5rem;
+    margin-left: 3.5rem;
+}
+.fiscalícenos strong {
+    font-size: 25px;
+}
+.fiscalícenos p {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    line-height: 0.5rem;
+}
+.fiscalícenos img {
+    width: 100px;
+    height: 100px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.push-button-3d {
+    margin-left: 3.5rem;
+    box-shadow: 0 4px #260fc6;
+    color: #ffffff;
+    background-color: #3223e7;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all .2s ease;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.push-button-3d:active {
+    box-shadow: 0 1px #260fc6;
+    transform: translateY(3px);
+}
+
+
+
+
+
+
+/*secion-perfiles*/
+
+/*boton-volver*/
+.volver {
+    margin-top: 8rem;
+    position: relative;
+    right: 2rem;
+}
+.postvolver {
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    color: #021B79;
+    text-decoration: none;
+}
+
+.postvolver {
+    position: absolute;
+    left: 5rem;
+}
+
+/*nombre-perfil-titulo*/
+.nombre-perfil h3 {
+    background: #ccc;
+    background: radial-gradient(#0a58ca, #6c757d);
+    font-family: system-ui;
+    font-size: 3.5rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+/*imagen-perfil*/
+.tio-img {
+    margin-left: 14rem;
+    margin-top: 3rem;
+}
+.tio-img img {
+    border-radius: 1.5rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0;
+}
+
+
+/*descripcion-perfil*/
+.descripcion {
+    margin-left: 6rem;
+    padding-top: 8rem;
+    line-height: 2rem;
+    font-size: 25px;
+
+    margin-bottom: 8rem;
+}
+.descripcion strong {
+    line-height: 3rem;
+}
+
+
+/*
+
+.postcontenedor {
+   position: relative;
+}
+.postcontenedor .postnombre {
+   position: absolute;
+   left: 45%;
+   transform: translate(-50%);
+   bottom: 1rem;
+   text-decoration: none;
+}
+.postnombre {
+   font-family: sans-serif;
+   font-size: 1.4rem;
+   color: #ffffff;
+}
+.postnombre:hover {
+   font-weight: bold;
+   color: #ffffff;
+}*/
+
+
+
+/*footer*/
+
+/*footer-color*/
+.pie {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 13rem;
+}
+
+
+/*footer-textos*/
+.pie p {
+    color: #ffffff;
+    line-height: 0.5rem;
+}
+/*info-texto*/
+.info-text{
+    position: absolute;
+    margin-top: 5.3rem;
+    margin-left: 6rem;
+}
+
+/*hito-cero-texto*/
+.hito {
+}
+.hito .hito-texto {
+    position: absolute;
+    margin-top: 8.3rem;
+    margin-left: 10.5rem;
+}
+.hito-img {
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 15rem;
+}
+
+
+/*redes-texto*/
+.redes-texto p {
+    position: absolute;
+    margin-top: 2.1rem;
+    margin-left: 10.5rem;
+}
+/*redes-img*/
+.redes img{
+    position: relative;
+    float: left;
+    width: auto;
+    margin-left: 1.2rem;
+    margin-top: 4.5rem;
+    border-radius: 30%;
+}
+.redes-img {
+    margin-left: 8.5rem;
+}
