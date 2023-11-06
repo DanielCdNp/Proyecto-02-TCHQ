@@ -204,6 +204,15 @@ box-shadow: 0.25rem 0.25rem 0.25rem 0;
 
 /*padres y apoderados-titulo*/
 .padres-apoderados h3 {
+    font-size: 3rem;
+    background: #ccc;
+    background: radial-gradient(#0a58ca, #021B79);
+    font-family: system-ui;;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+
     margin-top: 10rem;
     margin-bottom: 3rem;
     margin-right: 61%;
@@ -250,9 +259,20 @@ box-shadow: 0.25rem 0.25rem 0.25rem 0;
 
 /*fundacion-titulo*/
 .fundacion-titulo {
-    margin-top: 10rem;
+    top: 8rem;
     margin-bottom: 3rem;
-}
+
+}.fundacion-titulo h3 {
+     font-size: 3rem;
+     background: #ccc;
+     background: radial-gradient(#0a58ca, #021B79);
+     font-family: system-ui;;
+
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+
+ }
+
 /*fundancion-titulo-color*/
 .fundacion-contenido {
     padding-bottom: 6rem;
