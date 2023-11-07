@@ -12,12 +12,15 @@
     <!--Titulos-->
     <title>THCQuellón.cl</title>
 
-    <!--Styles-->
+    <!--Styles-Bootstrap-->
     <link href="assets/css/bootstrap/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
-
-
+    <!--Styles-CSS-->
     <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link rel="stylesheet" href="assets/css/width/Extra%20extra%20large.css">
+    <link rel="stylesheet" href="assets/css/width/Extra%20small.css">
+
+
 
 </head>
 
@@ -52,17 +55,39 @@
                             <a class="nav-link ms-4 d-inline-block" href="reseña%20historica.html">
                                 <span class="navbar-text">Reseña Historica</span></a>
                         </li>
-                        <!--pruebas betas-->
-                        <li class="nav-item">
-                            <a class="nav-link ms-4 d-inline-block" href="beta.html">
-                                <span class="navbar-text">Beta</span></a>
-                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/portada.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/portada-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/portada-3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
 
     <!--Inicio-bienvenido-->
@@ -71,6 +96,8 @@
             <div class="container-fluid">
                 <h1>Bienvenido</h1>
                 <h2>Sindicato de Trabajadores Independientes Transportistas Escolares Hito Cero Quellón</h2>
+            </div>
+            <div>
                 <a href="contratar.html">
                     <button class="angled-gradient-button" href="contratar">Contratar</button>
                 </a>
@@ -78,7 +105,7 @@
         </div>
     </section>
 
-    <div class="espacio container-fluid py-5"></div>
+    <div class="espacio container-fluid"></div>
 
     <!--Nosotros-->
     <section class="nosotros"> <!--section nosotros-->
@@ -114,14 +141,18 @@
     <section class="saludos">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6">
+
+                <div class="col-6 justify-content-centerbg-white">
                     <h4>LES SALUDAMOS CON ALEGRÍA Y LES DAMOS LA MÁS CÁLIDA BIENVENIDA PARA COLABORAR JUNTOS EN LA CRIANZA DE NUESTROS NIÑOS</h4>
                     <p>Somos una comunidad de 53 socios, la mayoría de los cuales representan pequeñas y medianas empresas familiares. Dentro de nuestra membresía, contamos con 34 socios activos que son propietarios de vehículos, ya sean minibuses o buses.</p>
                     <p>Los 19 socios restantes, clasificados como socios pasivos, desempeñan roles de asistentes y conductores en nuestro negocio. Es importante destacar que todos los socios pasivos son familiares directos de los propietarios o socios activos.</p>
                 </div>
-                <div class="col-6 d-flex justify-content-center align-items-center">
-                    <img src="assets/img/imagen-2.jpg" alt="imagen-2">
+
+                <div class="col-4">
+                    <img src="assets/img/imagen-2.jpg" alt="imagen-2" class="card-img-top">
                 </div>
+
+
             </div>
         </div>
     </section>
