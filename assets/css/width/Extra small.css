@@ -1,5 +1,9 @@
 @media (max-width: 576px) {
 
+.saludos {
+    height: 74.1rem;
+}
+
 
     /*nabar*/
 
@@ -37,7 +41,7 @@
     /*inicio-boton*/
     .angled-gradient-button {
         position: relative;
-        margin-bottom: 37rem;
+        margin-bottom: 30rem;
         background-size: 230%;
         text-transform: uppercase;
         border-radius: 6px;
@@ -67,45 +71,43 @@
     }
 
     /*img-nosotros*/
-    .titulo-img {
-        height: 500px;
-        width: 500px;
+
+    .titulo-img .quellon{
+        margin-left: 6rem;
+        height: 400px;
+        width: 430px;
         justify-content: center;
+        align-content: center;
     }
 
     /*subtitulo-nosotros*/
     .quellon h3 {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1px;
+        font-size: 20px;
         font-weight: 600;
-        text-align: center;
+        margin-right: 13%;
     }
 
     /*nosotros-contenido*/
     /*nosotros-subtitulo*/
     .saludos h4 {
         font-size: 30px;
-        margin-top: 22rem;
-        margin-left: 4.25rem;
+        margin-top: 15rem;
+        margin-right: 15%;
     }
 
     /*nosotros-texto*/
     .saludos p {
-        font-size: 24px;
-        line-height: 2rem;
-        margin-top: 2rem;
-        margin-left: 4rem;
+        font-size: 18px;
+        margin-right: 3rem;
     }
 
     /*nosotros-img*/
     .saludos img {
-        height: 21rem;
-        width: auto;
-        margin-top: 24rem;
-        border-radius: 0.5rem;
-        box-shadow: 0.25rem 0.25rem 0.25rem 0;
-        margin-left: 4.5rem;
-        margin-bottom: 15rem;
+        margin-left: 9%;
+        margin-top: 0.1rem;
+        height: 310px;
+        width: 450px;
     }
 
     /*padres y apoderados*/
@@ -114,7 +116,7 @@
         font-size: 3rem;
         margin-top: 10rem;
         margin-bottom: 3rem;
-        margin-right: 55%;
+        margin-right: 50%;
     }
 
     /*padres y apoderados-texto-1*/
@@ -368,30 +370,33 @@
 
     /*info-texto*/
     .info-text {
+        font-size: 8px;
         position: absolute;
-        margin-top: 5.3rem;
-        margin-left: 2rem;
+        margin-top: 3.5rem;
+        margin-left: 0.1rem;
     }
 
     /*hito-cero-texto*/
     .hito .hito-texto {
+        font-size: 8px;
         position: absolute;
         margin-top: 8.3rem;
-        margin-left: 3.5rem;
+        margin-left: 0.1rem;
     }
 
     .hito-img {
         position: absolute;
-        margin-top: 2rem;
-        margin-left: 8.1rem;
+        margin-top: 1rem;
+        margin-left: 0.1rem;
     }
 
 
     /*redes-texto*/
     .redes-texto p {
+        font-size: 8px;
         position: absolute;
-        margin-top: 2.1rem;
-        margin-left: 6.5rem;
+        margin-top: 1.5rem;
+        margin-left: 8rem;
     }
 
     /*redes-img*/
@@ -399,13 +404,12 @@
         position: relative;
         float: left;
         width: auto;
-        margin-left: 1rem;
-        margin-top: 4.5rem;
+        margin-top: 3.5rem;
         border-radius: 30%;
     }
 
     .redes-img {
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
 
 
