@@ -155,7 +155,6 @@
     -webkit-background-clip: text;
     font-weight: 600;
     text-align: center;
-    /*despues ver bien, porque si no se adjusta bien se borra el espacio de color azul*/
 }
 
 /*nosotros-contenido*/
@@ -198,6 +197,50 @@
     margin-left: 14rem;
     margin-bottom: 15rem;
 }
+
+/*quienes-somos*/
+
+.quienes-img h3 {
+    margin-top: 7rem;
+    background: #ccc;
+    background: radial-gradient(#0a58ca, #6c757d);
+    font-family: system-ui;
+    font-size: 4rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.saludos-quellon h4 {
+    font-size: 30px;
+    background: #ccc;
+    background: radial-gradient(#0a58ca, #021B79);
+    font-family: system-ui;;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    margin-top: 22rem;
+    margin-left: 6.25rem;
+}
+.saludos-quellon p {
+    font-size: 24px;
+    line-height: 2rem;
+    color: #021B79;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+.saludos-quellon img {
+    height: 25rem;
+    width: auto;
+    margin-top: 21rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0;
+    margin-left: 13rem;
+    margin-bottom: 7rem;
+}
+
+
 
 /*padres y apoderados*/
 

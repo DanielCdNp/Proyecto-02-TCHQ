@@ -1,188 +1,170 @@
-@media (max-width: 1400px) {
+@media (max-width: 992px) {
 
+
+
+    .saludos {
+        height: 59.1rem;
+    }
 
     /*nabar*/
 
 
-    .navbar a {
-        font-size: 1rem;
-    }
-
     .navbar span:hover {
-        padding: 13px 20px;
-        border-radius: 15px;
+        padding: 10px 10px;
+        border-radius: 10px;
     }
 
     .navbar button {
         padding: 5px 10px;
-        border-radius: 15px;
+        border-radius: 10px;
     }
 
 
     /*inicio*/
-    .inicio-container {
-        position: absolute;
-        left: 15px;
-        right: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
 
     /*inicio-titulo*/
+
     .container-fluid h1 {
-        font-size: 3rem;
+        position: relative;
+        margin-top: 5rem;
+        font-size: 2rem;
     }
 
     /*inicio-sub-titulo*/
     .container-fluid h2 {
-        font-size: 2rem;
-        margin: 2.5rem;
+        font-size: 1rem;
+        justify-content: center;
     }
 
     /*inicio-boton*/
     .angled-gradient-button {
-        background-size: 210%;
-        box-shadow: 0 .2em .3em rgba(0, 0, 0, 0.15);
-        color: #ffffff;
-        background-color: transparent;
-        background-position: 100%;
-        border: 3px solid #3363ff;
+        position: relative;
+        margin-bottom: 15rem;
+        background-size: 230%;
         text-transform: uppercase;
-        padding: 8px 15px;
         border-radius: 6px;
         transition: all .2s ease-out;
-        font-weight: 900;
+        font-weight: 600;
         cursor: pointer;
         letter-spacing: 2px;
-        background-image: linear-gradient(110deg, #3363ff 0%, #3363ff 50%, transparent 50%, transparent 100%);
-        font-size: 17px;
+        font-size: 10px;
         font-family: sans-serif;
     }
 
     .angled-gradient-button:hover {
         transform: translateY(-2px);
-        box-shadow: 0 0 .3em rgba(0, 0, 0, 0.25);
         background-position: 0;
     }
 
-    .angled-gradient-button:active {
-        transform: translateY(-1px);
+    /*fin inicio¨*/
+    .espacio {
+        padding: 1.4rem;
     }
-
 
 
     /*nosotros*/
     /*titulo-nosotros*/
     .nosotros h2 {
-        font-size: 4rem;
+        margin-top: 6rem;
+        font-size: 3rem;
     }
 
     /*img-nosotros*/
-    .titulo-img img{
-        height: 25rem;
-        width: auto;
-        margin-left: 34%;
+
+    .titulo-img img {
+        margin-left: 27%;
+    }
+
+    .titulo-img .quellon{
+        margin-left: 16.5rem;
+        height: 400px;
+        width: 430px;
+        justify-content: center;
+        align-content: center;
     }
 
     /*subtitulo-nosotros*/
     .quellon h3 {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
+        font-size: 20px;
         font-weight: 600;
-        text-align: center;
+        margin-left: 15%;
     }
-
-    /*nosotros-contenido*/
     /*nosotros-subtitulo*/
     .saludos h4 {
         font-size: 30px;
-        margin-top: 22rem;
-        margin-left: 4.25rem;
+        margin-top: 10rem;
+        margin-right: 7%;
     }
+
+
+    /*///saludo-quellon-quienes-somos///*/
+    .saludos-quellon h4 {
+        font-size: 30px;
+        margin-right: 12%;
+    }
+
+    .quienes-img h3{
+        margin-top: 2rem;
+        font-size: 24px;
+        margin-left: 4%;
+    }
+
+    .saludos-quellon img {
+        margin-left: 19%;
+        margin-top: 0.1rem;
+        height: 310px;
+        width: 450px;
+        margin-bottom: 3rem;
+    }
+    .saludos-quellon p {
+        margin-top: 2rem;
+        font-size: 18px;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
 
     /*nosotros-texto*/
     .saludos p {
-        font-size: 24px;
-        line-height: 2rem;
-        margin-top: 2rem;
-        margin-left: 4rem;
+        font-size: 18px;
+        margin-right: 3rem;
     }
 
     /*nosotros-img*/
     .saludos img {
-        height: 21rem;
-        width: auto;
-        margin-top: 24rem;
-        border-radius: 0.5rem;
-        box-shadow: 0.25rem 0.25rem 0.25rem 0;
-        margin-left: 4.5rem;
-        margin-bottom: 15rem;
-    }
-
-
-
-    /*quines-somos*/
-    .quienes-img {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-        font-weight: 600;
-        text-align: center;
-    }
-    .saludos-quellon h4 {
-        font-size: 30px;
+        margin-left: 28%;
         margin-top: 2rem;
-        margin-left: 4.25rem;
+        height: 310px;
+        width: 450px;
     }
-    .saludos-quellon p {
-        font-size: 24px;
-        line-height: 2rem;
-        margin-top: 2rem;
-        margin-left: 4rem;
-    }
-    .saludos-quellon img {
-        height: 21rem;
-        width: auto;
-        margin-top: 12rem;
-        border-radius: 0.5rem;
-        box-shadow: 0.25rem 0.25rem 0.25rem 0;
-        margin-left: 4.5rem;
-        margin-bottom: 10rem;
-    }
-
-
-
 
     /*padres y apoderados*/
     /*padres y apoderados-titulo*/
     .padres-apoderados h3 {
-        font-size: 3rem;
-        margin-top: 10rem;
-        margin-bottom: 3rem;
-        margin-right: 55%;
+        font-size: 2.7rem;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+        margin-right: 1%;
     }
 
     /*padres y apoderados-texto-1*/
     .contenido-padres-apoderados-1 p {
-        margin-top: 1rem;
+        font-size: 18px;
+        margin-top: 3rem;
     }
 
     /*padres y apoderados-img1*/
     .contenido-padres-apoderados-1 img {
         height: 18rem;
         width: 25rem;
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
         border-radius: 0.5rem;
         box-shadow: 0.25rem 0.25rem 0.25rem 0;
+        margin-top: 3rem;
     }
 
     /*padreas y apoderados-texto-2*/
     .contenido-padres-apoderados-2 {
-        margin-top: 6rem;
-        padding-bottom: 6rem;
+        font-size: 18px;
     }
 
     .contenido-padres-apoderados-2 p {
@@ -193,9 +175,8 @@
     .contenido-padres-apoderados-2 img {
         height: 18rem;
         width: 25rem;
-        margin-right: 2rem;
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 2rem;
         border-radius: 0.5rem;
         box-shadow: 0.25rem 0.25rem 0.25rem 0;
     }
@@ -203,25 +184,24 @@
 
     /*reseña-historica*/
     /*reseña-historica-titulo*/
+
     .fundacion-titulo {
-        top: 6rem;
-        margin-bottom: 3rem;
+        margin-top: 9rem;
     }
 
     .fundacion-titulo h3 {
-        font-size: 3rem;
+        font-size: 25px;
     }
 
     .fundacion-contenido p {
-        margin-left: 4rem;
-        font-size: 20px;
+        font-size: 18px;
         font-family: sans-serif;
+        margin-right: 5rem;
     }
 
 
     .fundacion-contenido {
         padding-bottom: 6rem;
-        margin-left: 2rem;
     }
 
 
@@ -229,58 +209,43 @@
     /*contratar-titulo*/
     .transportistas h2 {
         margin-top: 4rem;
-        font-family: system-ui;
-        font-size: 4rem;
-        padding: 5rem;
+        font-size: 40px;
     }
 
     /*contratar-img*/
-    .contenedor {
-        padding-bottom: 4rem;
-        padding-left: 1px;
+    .contenindo {
+        margin-right: 7rem;
     }
 
     .contenindo img {
-        width: 250px;
-        height: 300px;
-        margin-top: 4rem;
+        width: 180px;
+        height: 200px;
         border-radius: 0.5rem;
     }
 
-    .capa-nombre {
-        padding: 0.5rem;
-    }
-
     .capa {
-        position: absolute;
-    }
-
-    .capa {
-        width: 15.8rem;
-        height: 3.8rem;
+        width: 11.3rem;
+        height: 3rem;
         position: absolute;
         left: 1rem;
-        bottom: 0;
         border-radius: 0.5rem;
     }
 
 
     /*acomodar contratar-texto*/
     .postcontenedor {
-        margin-top: 10px;
         position: relative;
     }
 
     .postcontenedor .postnombre {
         position: relative;
-        left: 30px;
-        bottom: 0.5rem;
+        left: 25px;
         text-decoration: none;
     }
 
     .postnombre {
         font-family: sans-serif;
-        font-size: 24px;
+        font-size: 14px;
     }
 
     .postnombre:hover {
@@ -291,12 +256,12 @@
     /*nose que poner*/
 
     .fiscalícenos {
-        margin-left: 7rem;
+        margin-left: 3rem;
     }
 
     .fiscalícenos-texto-1 {
         margin-top: 50px;
-        padding-left: 55px;
+        padding-left: 5.6rem;
     }
 
     .fiscalícenos-texto-1 p {
@@ -305,7 +270,7 @@
 
     .fiscalícenos-texto-2 {
         margin-top: 100px;
-        margin-left: 55px;
+        margin-left: 5.6rem;
     }
 
     .fiscalícenos strong {
@@ -314,19 +279,19 @@
 
     .fiscalícenos p {
         margin-top: 1rem;
-        margin-left: 2.5rem;
-        line-height: 0.5rem;
+        margin-left: 7.4rem;
+        line-height: 0.9rem;
     }
 
     .fiscalícenos img {
         width: 100px;
         height: 100px;
-        margin-top: 2rem;
-        margin-left: 5rem;
+        margin-top: 1rem;
+        margin-left: 7rem;
     }
 
     .push-button-3d {
-        margin-left: 3.5rem;
+        margin-left: 5.4rem;
         text-transform: uppercase;
         padding: 10px 20px;
         border-radius: 5px;
@@ -336,15 +301,12 @@
         letter-spacing: 1px;
     }
 
-    .push-button-3d:active {
-        transform: translateY(3px);
-    }
 
 
     /*secion-perfiles*/
     /*boton-volver*/
     .volver {
-        margin-top: 5.5rem;
+        margin-top: 5rem;
         position: relative;
     }
 
@@ -361,10 +323,10 @@
 
     /*nombre-perfil-titulo*/
     .nombre-perfil h3 {
-        font-size: 3.5rem;
+        font-size: 30px;
         margin-top: 6rem;
         margin-bottom: 3rem;
-        margin-left: 18%;
+        margin-left: 25%;
     }
 
     /*imagen-perfil*/
@@ -374,6 +336,8 @@
     }
 
     .tio-img img {
+        width: 250px;
+        height: 280px;
         border-radius: 1.5rem;
         box-shadow: 0.25rem 0.25rem 0.25rem 0;
     }
@@ -381,25 +345,20 @@
 
     /*descripcion-perfil*/
     .descripcion {
-        padding-top: 5.5rem;
-        line-height: 2rem;
-        font-size: 25px;
-        margin-bottom: 8rem;
+        line-height: 1rem;
+        font-size: 15px;
     }
 
     .descripcion strong {
-        line-height: 3rem;
+        line-height: 2px;
     }
-
-    .accor-item {
-        margin-left: 3rem;
+    .descripcion {
+        margin-right: 3rem;
     }
-
-
     #accordionPanelsStayOpenExample {
-        margin-left: 8rem;
+        margin-right: 15%;
+        margin-left: 1%;
     }
-
 
     /*footer*/
     /*footer-color*/
@@ -415,30 +374,33 @@
 
     /*info-texto*/
     .info-text {
+        font-size: 15px;
         position: absolute;
-        margin-top: 5.3rem;
-        margin-left: 2rem;
+        margin-top: 3.5rem;
+        margin-left: 1rem;
     }
 
     /*hito-cero-texto*/
     .hito .hito-texto {
+        font-size: 15px;
         position: absolute;
-        margin-top: 8.3rem;
-        margin-left: 3.5rem;
+        margin-top: 6.6rem;
+        margin-left: 0.1rem;
     }
 
     .hito-img {
         position: absolute;
-        margin-top: 2rem;
-        margin-left: 8.1rem;
+        margin-top: 0.3rem;
+        margin-left: 4.5rem;
     }
 
 
     /*redes-texto*/
     .redes-texto p {
+        font-size: 15px;
         position: absolute;
-        margin-top: 2.1rem;
-        margin-left: 6.5rem;
+        margin-top: 1.5rem;
+        margin-left: 3.3rem;
     }
 
     /*redes-img*/
@@ -446,13 +408,12 @@
         position: relative;
         float: left;
         width: auto;
-        margin-left: 1rem;
-        margin-top: 4.5rem;
+        margin-top: 3.5rem;
         border-radius: 30%;
     }
 
     .redes-img {
-        margin-left: 5rem;
+        margin-right: 3.6rem;
     }
 
 
