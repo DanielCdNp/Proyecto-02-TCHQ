@@ -137,10 +137,14 @@
     -webkit-background-clip: text;
 }
 
+
 /*img-nosotros*/
 .titulo-img {
     height: 25rem;
     width: auto;
+}
+.titulo-img img {
+    margin-left: 36%;
 }
 
 /*subtitulo-nosotros*/
@@ -186,10 +190,10 @@
 .saludos img {
     height: 25rem;
     width: auto;
-    margin-top: 21rem;
+    margin-top: 22rem;
     border-radius: 0.5rem;
     box-shadow: 0.25rem 0.25rem 0.25rem 0;
-    margin-left: 13rem;
+    margin-left: 12rem;
     margin-bottom: 7rem;
 }
 .card-body {
@@ -201,11 +205,11 @@
 /*quienes-somos*/
 
 .quienes-img h3 {
-    margin-top: 7rem;
+    margin-top: 4rem;
     background: #ccc;
     background: radial-gradient(#0a58ca, #6c757d);
     font-family: system-ui;
-    font-size: 4rem;
+    font-size: 3rem;
 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -220,7 +224,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
-    margin-top: 22rem;
+    margin-top: 8rem;
     margin-left: 6.25rem;
 }
 .saludos-quellon p {
@@ -233,7 +237,7 @@
 .saludos-quellon img {
     height: 25rem;
     width: auto;
-    margin-top: 21rem;
+    margin-top: 9rem;
     border-radius: 0.5rem;
     box-shadow: 0.25rem 0.25rem 0.25rem 0;
     margin-left: 13rem;
@@ -303,7 +307,7 @@
 
 /*reseña-historica-titulo*/
 .fundacion-titulo {
-    top: 8rem;
+    margin-top: 8rem;
     margin-bottom: 3rem;
 
 }.fundacion-titulo h3 {
@@ -513,8 +517,8 @@
 
 /*descripcion-perfil*/
 .descripcion {
-    margin-left: 6rem;
-    padding-top: 8rem;
+    margin-left: 14rem;
+    padding-top: 7rem;
     line-height: 2rem;
     font-size: 25px;
 
@@ -523,6 +527,10 @@
 .descripcion strong {
     line-height: 3rem;
 }
+#accordionPanelsStayOpenExample {
+    margin-right: 4rem;
+}
+
 
 
 /*footer*/
